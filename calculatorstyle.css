@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
     margin: 0px;
 }
@@ -11,17 +11,19 @@ table {
 
 table caption {
     background-color: black;
-    
+
 }
 
 
-td, th {
+td,
+th {
     padding: 10px;
     text-align: center;
 }
 
 table caption input {
-    text-align: right; /*zero on the right side*/
+    text-align: right;
+    /*zero on the right side*/
     background-color: black;
     color: white;
     font-size: 80pt;
@@ -42,21 +44,37 @@ td input {
     color: white;
 }
 
-#add, #subtract, #multiply, #divide, #equals {
+#add,
+#subtract,
+#multiply,
+#divide,
+#equals {
     background-color: orange;
     color: white;
+
 }
-#add:hover, #subtract:hover, #multiply:hover, #divide:hover, #equals:hover {
+
+#add:hover,
+#subtract:hover,
+#multiply:hover,
+#divide:hover,
+#equals:hover {
     background-color: white;
     color: orange;
+
 }
 
-#allclear, #percent, #square {
+#allclear,
+#percent,
+#square {
     background-color: gray;
     color: black;
+
 }
 
-#allclear:hover, #percent:hover, #square:hover {
+#allclear:hover,
+#percent:hover,
+#square:hover {
     background-color: rgb(197, 197, 197);
     color: black;
 }
